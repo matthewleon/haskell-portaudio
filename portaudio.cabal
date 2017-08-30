@@ -28,6 +28,7 @@ library
                    Sound.PortAudio.Base,
                    Sound.PortAudio.Buffer
   ghc-options: -Wall
+  pkgconfig-depends: portaudio-2.0
   build-depends:     base >= 3 && < 5
                    , containers
   extra-Libraries: portaudio
